@@ -1,0 +1,120 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f9fafb;
+    color: #111827;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: white;
+}
+
+.hero h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.role {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #374151;
+}
+
+.tagline {
+    margin-top: 15px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #4b5563;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.primary {
+    background: #111827;
+    color: white;
+}
+
+.primary:hover {
+    background: #2563eb;
+}
+
+.outline {
+    border: 2px solid #111827;
+    color: #111827;
+}
+
+.outline:hover {
+    background: #111827;
+    color: white;
+}
+
+/* SECTION */
+.section {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 10px;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* PROJECTS */
+.project {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #111827;
+    color: white;
+    margin-top: 60px;
+}
